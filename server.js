@@ -6,7 +6,7 @@ const expectedFields = [
   "_id", "AllSkySolarApr", "AllSkySolarAug", "AllSkySolarDec", "AllSkySolarFeb",
   "AllSkySolarJan", "AllSkySolarJul", "AllSkySolarJun", "AllSkySolarMar",
   "AllSkySolarMay", "AllSkySolarNov", "AllSkySolarOct", "AllSkySolarSep",
-  "AnnualAvgDB", "CDD50", "CDD65", "CDH74", "CDH80", "ColdestMonth",
+  "AnnualAvgDailyTemp", "CDD50", "CDD65", "CDH74", "CDH80", "ColdestMonth",
   "Country", "Elev", "FivePercentCoolDB", "FivePercentCoolMCWB",
   "FivePercentDBDR", "FivePercentWBDR", "GrainsNintyNinePointPercentHumid",
   "GrainsOnePercentDehumid", "HDD50", "HDD65", "HottestMoDR", "HottestMonth",
@@ -60,8 +60,8 @@ const keyMapping = {
   "All-SkySolar-Sep": "AllSkySolarSep",
   "All-SkySolar-Oct": "AllSkySolarOct",
   "All-SkySolar-Nov": "AllSkySolarNov",
-  "All-SkySolar-Dec": "AllSkySolarDec",
-  "AnnualAvgDailyTemp": "AnnualAvgDB",  
+  "All-SkySolar-Dec": "AllSkySolarDec", 
+  "AnnualAvgDB": "AnnualAvgDailyTemp",
   "MCWSto0.4%DB": "MCWStoZeroPointFourPercentDB" 
 };
 
